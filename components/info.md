@@ -1,0 +1,1 @@
+*se atente a components repetidos*
