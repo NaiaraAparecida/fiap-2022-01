@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../plugins/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Idwall-Usuários</title>
+</head>
+
+<body>
+    <div class="flex-dashboard">
+        <aside id="aside">
+            <div class="aside-title">
+                <img src="../img/logo-cmyk-versoes_meioameio.jpg" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">protocolos</a>
+                    </li>
+                    <li>
+
+                        <a href="#">documentos</a>
+                    </li>
+                    <li>
+                        <a href="#">usuarios</a>
+                    </li>
+                    <li>
+
+                        <a href="#">fontes</a>
+                    </li>
+                    <li>
+
+                        <a href="#">matrizes</a>
+                    </li>
+                    <li>
+
+                        <a href="#">regras</a>
+                    </li>
+                    <li>
+
+                        <a href="#">atributos</a>
+                    </li>
+                    <li>
+
+                        <a href="#">monitor</a>
+                    </li>
+                    <li>
+
+                        <a href="#">organizaçoes</a>
+                    </li>
+                    <li>
+
+                        <a href="#">sair</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <header>
+                <div class="button-add">
+                    <button type="button" class="btn btn-primary">+</button>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <input type="search" class="form-control" id="search" placeholder="email.com" value="email.com">
+                        <label for="search">Pesquisar</label>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <select class="form-select" id="select" aria-label="select">
+                          <option selected>Todos</option>
+                          <option value="1">#</option>
+                          <option value="2">Clientes</option>
+                          <option value="3">Protocolos</option>
+                          <option value="3">Email</option>
+                          <option value="3">Acesso</option>
+                          <option value="3">Backoffice</option>
+                          <option value="3">IDnetwork</option>
+                        </select>
+                        <label for="floatingSelectGrid">Selecione a coluna:</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Listar somente usuários desativados</label>
+                  </div>
+            </header>
+            <div class="main-content">
+                <div class="main-content-table">
+                    <table class="table">
+                        <table class="table table-sm">
+                            <thead class="table-light">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Cliente</th>
+                                    <th scope="col">Protocolos</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Acesso</th>
+                                    <th scope="col">Backoffice</th>
+                                    <th scope="col">IDnetwork</th>
+                                    <th scope="col">Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1026</th>
+                                    <td>12334</td>
+                                    <td>0</td>
+                                    <td>email.com</td>
+                                    <td>Não</td>
+                                    <td>Não</td>
+                                    <td>Não</td>
+                                    <td><button type="button" class="btn btn-primary">Logar</button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1026</th>
+                                    <td>12334</td>
+                                    <td>0</td>
+                                    <td>email.com</td>
+                                    <td>Não</td>
+                                    <td>Não</td>
+                                    <td>Não</td>
+                                    <td><button type="button" class="btn btn-primary">Logar</button></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1026</th>
+                                    <td>12334</td>
+                                    <td>0</td>
+                                    <td>email.com</td>
+                                    <td>Não</td>
+                                    <td>Não</td>
+                                    <td>Não</td>
+                                    <td><button type="button" class="btn btn-primary">Logar</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </table>
+                </div>
+
+
+            </div>
+    </div>
+    </main>
+    <script src="../plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script scr="../plugins/fontawesome/js/all.min.js"></script>
+
+</body>
+
+</html>
